@@ -1,0 +1,56 @@
+* { font-family: 'Otomanopee One', sans-serif;}
+
+/*HOME*/
+header {
+    background-color: black;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    animation-name: header;
+    animation-duration: 0,5s;
+}
+a:hover .header {
+    color: white;
+}
+
+@keyframes header {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+
+.video  {
+    display: flex;
+    justify-content: center;
+    margin: 90px;
+    animation-name: video;
+    animation-duration: 0,5s;
+}
+
+@keyframes video {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+
+section .card-body {
+    color: #000;
+}
+
+.sections-container-fluid {
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+
