@@ -23,23 +23,16 @@ a:hover .header {
 }
 
 
-.video  {
+section .video {
     display: flex;
     justify-content: center;
     margin: 90px;
-    animation-name: video;
-    animation-duration: 0,5s;
 }
-
-@keyframes video {
-    0% {
-        transform: scale(0.1);
-    }
-    100% {
-        transform: scale(1.0);
-    }
+section .video:hover { 
+    transition-duration: 0.7s;
+    transform: scale(1.2);
+    
 }
-
 
 section .card-body {
     color: #000;
@@ -54,3 +47,95 @@ section .card-body {
     text-decoration: none;
 }
 
+.col-md-4{
+    animation-name: foto;
+    animation-duration: 2s;
+}
+
+@keyframes foto {
+    0% { 
+        transform: translateX(-500px)
+    }
+    100% { 
+        transform: translateX(2px);
+    }  
+}
+
+.col-13-b :hover { 
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite;
+}
+
+.col-md-4-A {
+    animation-name: fotoF;
+    animation-duration: 8s;
+}
+
+@keyframes fotoF {
+    0% { 
+        transform: scale(0.0);
+    }
+    100% { 
+        transform: scale(1.1);
+    }  
+}
+
+.nav-item-artistas {
+    max-width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    margin: 5%;
+}
+
+.nav-link-A {
+    color: orangered;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    animation-name: nombreA;
+    animation-duration: 5s;
+}
+@keyframes nombreA {
+    0% { 
+        transform: scale(0.0);
+    }
+    100% { 
+        transform: scale(1.0);
+    }  
+}
+
+.nav-link-A:hover {
+    color: orange;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.2);
+    border-color: antiquewhite; 
+}
+
+.card-img {
+    animation-name: img;
+    animation-duration: 5s;
+}
+.card-img:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite;
+}
+
+@keyframes img {
+    0% { 
+        transform: scale(0.0);
+    }
+    100% { 
+        transform: scale(1.0);
+    }  
+}

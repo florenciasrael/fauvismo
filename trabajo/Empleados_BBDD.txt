@@ -1,0 +1,39 @@
+CREATE DATABASE Empleados;
+
+USE Empleados;
+
+CREATE TABLE empleado (
+nro_EMP INT( 100 ) NOT NULL AUTO_INCREMENT ,
+nombre VARCHAR( 20 ) NOT NULL ,
+apellido VARCHAR( 20 ) NOT NULL ,
+trabajo VARCHAR ( 30 ) NULL ,
+edad INT( 3 ) NOT NULL ,
+salario INT( 5 ) NOT NULL ,
+email VARCHAR( 30 ) NOT NULL ,
+PRIMARY KEY ( nro_emp )
+);  
+
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Sandra', 'Gonzalez', 'Empleada', 26, 1500, 'sandragon@yahoo.com.ar');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Roxana', 'Pereyra', 'Estudiante', 22, 2000, 'roxi_pereyra@gmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Mariano', 'Gasior', 'Estudiante', 22, 1800, 'mar501@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Ingrid', 'Bermudez', 'Ama de casa', 28, 5000, 'ingridberz@yahoo.com.ar');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Victoria', 'Godoy', 'Abogada', 27, 3500, 'vicus80@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Ornella', 'Riccio', 'Estudiante', 21, 1200, 'nelariccio@yahoo.com.ar');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Felipe', 'Rodriguez', 'Comerciante', 31, 2100, 'feliperod@hormail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Gisela', 'Lardo', 'Docente', 24, 6000, 'glardo@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Rodrigo', 'Obrogozo', 'Ama de casa', 28, 4100, 'r.obregozo@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Mariano', 'Golluccio', 'Empleado', 33, 10000,'marianogolluccio@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Florencia', 'Baldacchino', 'Estudiante', 23, 1000, 'marflorb@yahoo.com.ar');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Pablo', 'Solis', 'Empleado', 30, 2300, 'pablitosolis@yahoo.com.ar');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Eugenia', 'Sinclair', null, 27, 6000,  'mariusinclair@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Anabella', 'Gatti', 'Estudiante', 22, 800, 'anabellagatti@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Soledad', 'Spandonari', 'Comerciante', 32, 7500, 'solzimer@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Ignacio', 'Dominguez', 'Estudiante', 23, 1400, 'dominacho@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Gabriel', 'Rodriguez', 'Empleado', 26, 1300, 'rodriguez_ga@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Jimena', 'Morillo', 'Arquitecta' , 31, 5000, 'majimori@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Martin', 'Sanchez', 'Estudiante', 29, 1100, 'tityms@yahoo.com.ar');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Francisco', 'Lopez', 'Empleado', 27, 2500, 'flopez@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Agustina', 'Farina', null, 21, 3000, 'agustinafarina@hotmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Margarita', 'Pando', 'Psicologa', 31, 1470, 'mmpando@gmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Luis', 'Panelli', 'Arquitecto', 28, 4700, 'luisgym@gmail.com');
+INSERT INTO empleado (nombre, apellido, trabajo, edad, salario, email) VALUES ('Jorgelina', 'Perales', 'Docente', 25, 1450, 'mjorgelinap@hotmail.com');

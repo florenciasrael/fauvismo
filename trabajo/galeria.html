@@ -21,123 +21,117 @@
         }
     </style>
 
-<!-- MENU -->
-<header class=" header container-fluid">
-  <div class="container">
-      <div class="row">
-          <div class="col">
-              <nav class="navbar navbar-expand-lg navbar-light ">
-                  <div class="container-fluid">
-                    <a href="index.html" class="navbar-brand" href="#"><img src="img/LOGO.png" style="width: 5rem;" class="logoheader"></a>
-                    <!-- botton hamburger -->
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
+     <!-- MENU -->
+     <header class=" header container-fluid">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <nav class="navbar navbar-expand-lg navbar-light ">
+                      <div class="container-fluid">
+                        <a href="index.html" class="navbar-brand" href="#"><img src="img/LOGO.png" style="width: 5rem;" class="logoheader"></a>
+                        <!-- botton hamburger -->
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
 
-                      <!-- MENÚ, cambio las palabras y pongo las mias de mis secciones  -->
-                      <div class="collapse navbar-collapse " id="navbarSupportedContent" style="margin-left: 23%;">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right">
-                          <li class="nav-item">
-                           <a href="INDEX.HTML" class="nav-link" href="#" style="color: blue;">HISTORIA</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="FILOSOFÍA.HTML" class="nav-link" href="#" style="color: red;">FILOSOFÍA</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="ARTISTAS.HTML" class="nav-link" href="#" style="color: greenyellow;">ARTISTAS</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a href="GALERIA.HTML" class="nav-link dropdown-toggle" href="#" style="color: yellow;" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              GALERÍA
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                              <li><a class="dropdown-item" href="GALERÍA.HTML">Detras de escena</a></li>
-                              <li><a class="dropdown-item" href="ANDRE.HTML">André Derain</a></li>
-                              <li><a class="dropdown-item" href="HENRY.HTML">Henry Matse</a></li>
-                              <li><a class="dropdown-item" href="MAURICE.HTML">Maurice De Vlamink</a></li>
+                          <!-- MENÚ, cambio las palabras y pongo las mias de mis secciones  -->
+                          <div class="collapse navbar-collapse " id="navbarSupportedContent" style="margin-left: 23%;">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right">
+                              <li class="nav-item">
+                               <a href="index.html" class="nav-link" href="#" style="color: blue;">HISTORIA</a>
+                              </li>
+                              <li class="nav-item">
+                                <a href="filosofia.html" class="nav-link" href="#" style="color: red;">FILOSOFÍA</a>
+                              </li>
+                              <li class="nav-item">
+                                <a href="artistas.html" class="nav-link" href="#" style="color: greenyellow;">ARTISTAS</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a href="galeria.html" class="nav-link dropdown-toggle" href="#" style="color: yellow;" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  GALERÍA
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="galeria.html">Detras de escena</a></li>
+                                  <li><a class="dropdown-item" href="andre.html">André Derain</a></li>
+                                  <li><a class="dropdown-item" href="henry.html">Henry Matse</a></li>
+                                  <li><a class="dropdown-item" href="maurice.html">Maurice De Vlamink</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a href="contacto.html" class="nav-link" href="#" style="color: deeppink;">CONTACTO</a>
+                              </li>
+                              </li>
+                              
                             </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a href="CONTACTO.HTML" class="nav-link" href="#" style="color: deeppink;">CONTACTO</a>
-                          </li>
-                          </li>
-                          
-                        </ul>
+                            </div>
+                    
+                            
+                              <form action="resultados_buscar.php" method="post" style="border-radius: 50px; ">
+                                <input style="margin-right: 0,5%; width: 70%;" type="search" name="buscar" placeholder="Buscar Artistas..." />
+                                <input type="submit" value="Enviar">
+                                </form>
+                            
+                          </div>
                         </div>
+                      </nav>
+                </div>
                 
-                        
-                          <form action="resultados_buscar.php" method="post" style="border-radius: 50px; ">
-                            <input style="margin-right: 0,5%; width: 70%;" type="search" name="buscar" placeholder="Buscar Artistas..." />
-                            <input type="submit" value="Enviar">
-                            </form>
-                        
-                      </div>
-                    </div>
-                  </nav>
-            </div>
-            
-        </div>    
-    </div>
-</header>
+            </div>    
+        </div>
+    </header>
+
     <section> 
-        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 5%; margin-top: 10%;">
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 5%; margin-top: 5%;">
 
             <div class="col" style="margin-top: 6%; width: 25rem;"> 
-                <div class="card">
-                  <img src="3.jpg" class="card-img-top" alt="...">
+                <div class="card-img">
+                  <img src="img/galerianormal/g1.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <div class="col" style="width: 25rem; margin-top: 3%; margin-left: 1%;">
-              <div class="card">
-                <img src="1.jpeg" class="card-img-top" alt="...">
+              <div class="card-img">
+                <img src="img/galerianormal/g2.jpeg" class="card-img-top" alt="...">
               </div>
             </div>
 
             <div class="col" style="margin-top: 10%; width: 25rem; margin-left: -1%;">
-                <div class="card">
-                  <img src="13.jpg" class="card-img-top" alt="...">
+                <div class="card-img">
+                  <img src="img/galerianormal/g3.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <div class="col" style="margin-left: 10%; margin-top: 5% ;width: 30rem;">
-              <div class="card">
-                <img src="images (1).jpeg" class="card-img-top" alt="...">
+              <div class="card-img">
+                <img src="img/galerianormal/g4.jpeg" class="card-img-top" alt="...">
               </div>
             </div>
 
             <div class="col" style="width: 21rem; margin-top: -21%; margin-left: -17%;">
-                <div class="card">
-                  <img src="9.jpg" class="card-img-top" alt="...">
+                <div class="card-img">
+                  <img src="img/galerianormal/g5.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <div class="col" style="margin-top: -17%; width: 28rem; margin-left: 2%;">
-                <div class="card">
-                  <img src="7.jpg" class="card-img-top" alt="...">
+                <div class="card-img">
+                  <img src="img/galerianormal/g6.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <div class="col" style="margin-top: -22%; width: 18rem; margin-left: 50%;"> 
-                <div class="card">
-                  <img src="11.jpg" class="card-img-top" alt="...">
+                <div class="card-img">
+                  <img src="img/galerianormal/g7.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
 
             <div class="col" style="margin-top: -30%; width: 18rem; margin-left: 74%;"> 
-                <div class="card">
-                  <img src="2.jpg" class="card-img-top" alt="...">
+                <div class="card-img">
+                  <img src="img/galerianormal/g8.jpg" class="card-img-top" alt="...">
                 </div>
             </div>
-
-            
-
-            
-
-            
-            
-              
-          </div>        
+  
+        </div>        
 
     
     </section>

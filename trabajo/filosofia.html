@@ -16,87 +16,88 @@
 
   <style>
     body {
-      background-image: url(img/henry.webp);
+      background-image: url(img/fondofilosofia.png);
     }
   </style>  
 
-<!-- MENU -->
-<header class=" header container-fluid">
-  <div class="container">
-      <div class="row">
-          <div class="col">
-              <nav class="navbar navbar-expand-lg navbar-light ">
-                  <div class="container-fluid">
-                    <a href="index.html" class="navbar-brand" href="#"><img src="img/LOGO.png" style="width: 5rem;" class="logoheader"></a>
-                    <!-- botton hamburger -->
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
+     <!-- MENU -->
+     <header class=" header container-fluid">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <nav class="navbar navbar-expand-lg navbar-light ">
+                      <div class="container-fluid">
+                        <a href="index.html" class="navbar-brand" href="#"><img src="img/LOGO.png" style="width: 5rem;" class="logoheader"></a>
+                        <!-- botton hamburger -->
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
 
-                      <!-- MENÚ, cambio las palabras y pongo las mias de mis secciones  -->
-                      <div class="collapse navbar-collapse " id="navbarSupportedContent" style="margin-left: 23%;">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right">
-                          <li class="nav-item">
-                           <a href="INDEX.HTML" class="nav-link" href="#" style="color: blue;">HISTORIA</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="FILOSOFÍA.HTML" class="nav-link" href="#" style="color: red;">FILOSOFÍA</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="ARTISTAS.HTML" class="nav-link" href="#" style="color: greenyellow;">ARTISTAS</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a href="GALERIA.HTML" class="nav-link dropdown-toggle" href="#" style="color: yellow;" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              GALERÍA
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                              <li><a class="dropdown-item" href="GALERÍA.HTML">Detras de escena</a></li>
-                              <li><a class="dropdown-item" href="ANDRE.HTML">André Derain</a></li>
-                              <li><a class="dropdown-item" href="HENRY.HTML">Henry Matse</a></li>
-                              <li><a class="dropdown-item" href="MAURICE.HTML">Maurice De Vlamink</a></li>
+                          <!-- MENÚ, cambio las palabras y pongo las mias de mis secciones  -->
+                          <div class="collapse navbar-collapse " id="navbarSupportedContent" style="margin-left: 23%;">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right">
+                              <li class="nav-item">
+                               <a href="index.html" class="nav-link" href="#" style="color: blue;">HISTORIA</a>
+                              </li>
+                              <li class="nav-item">
+                                <a href="filosofia.html" class="nav-link" href="#" style="color: red;">FILOSOFÍA</a>
+                              </li>
+                              <li class="nav-item">
+                                <a href="artistas.html" class="nav-link" href="#" style="color: greenyellow;">ARTISTAS</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a href="galeria.html" class="nav-link dropdown-toggle" href="#" style="color: yellow;" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  GALERÍA
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="galeria.html">Detras de escena</a></li>
+                                  <li><a class="dropdown-item" href="andre.html">André Derain</a></li>
+                                  <li><a class="dropdown-item" href="henry.html">Henry Matse</a></li>
+                                  <li><a class="dropdown-item" href="maurice.html">Maurice De Vlamink</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a href="contacto.html" class="nav-link" href="#" style="color: deeppink;">CONTACTO</a>
+                              </li>
+                              </li>
+                              
                             </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a href="CONTACTO.HTML" class="nav-link" href="#" style="color: deeppink;">CONTACTO</a>
-                          </li>
-                          </li>
-                          
-                        </ul>
+                            </div>
+                    
+                            
+                              <form action="resultados_buscar.php" method="post" style="border-radius: 50px; ">
+                                <input style="margin-right: 0,5%; width: 70%;" type="search" name="buscar" placeholder="Buscar Artistas..." />
+                                <input type="submit" value="Enviar">
+                                </form>
+                            
+                          </div>
                         </div>
+                      </nav>
+                </div>
                 
-                        
-                          <form action="resultados_buscar.php" method="post" style="border-radius: 50px; ">
-                            <input style="margin-right: 0,5%; width: 70%;" type="search" name="buscar" placeholder="Buscar Artistas..." />
-                            <input type="submit" value="Enviar">
-                            </form>
-                        
-                      </div>
-                    </div>
-                  </nav>
-            </div>
-            
-        </div>    
-    </div>
-</header>
+            </div>    
+        </div>
+    </header>
 
     <section> 
         
 
-    <!-- TEXTO LARGO -->
-    <div class="coment"></div>
-        <div class="container card" style="opacity: 80%; background-color: palevioletred; margin-top: 7%; margin-bottom: 5%; text-align: justify; ">
+<!-- FOTO -->    
+          <div class="col-md-4" style="width: 17rem; margin-left: 10%;">
+            <img src="img/filosofia.png" class="img-fluid rounded-start" alt="...">
+          </div>
+<!-- TEXTO LARGO -->
+          <div class="col-md-6" style="opacity: 80%; background-color: palevioletred; margin-top: 7%; margin-bottom: 5%; margin-left: 45% ; text-align: justify; "> <blockquote class="blockquote mb-2"  style="font-size: 16px;">
             <div class="card-body">
-                <blockquote class="blockquote mb-2"  style="font-size: 16px;" >
+              <p class="card-text"  >
                 <p>Los fauvistas procuraban manifestar su descontento por la realidad capitalista afirmando el derecho del artista a deformar y presentar de manera primitiva los objetos y fenómenos representables, desorbitando en extremo los elementos, de la composición, la perspectiva. Veían la misión del arte en apartar al hombre de las contradicciones de la vida, en infundir tranquilidad, en proporcionar al hombre satisfacciones a pesar de la encarnizada lucha que se sostiene en el mundo.</p>
                     <p>Creían que a través de los colores podían expresar sentimientos y este pensamiento condicionó su forma de pintar. No buscan la representación naturalista, sino realzar el valor del color en sí mismo. Por ello, rechazaron la paleta de tonos naturalistas empleada por los impresionistas a favor de los colores violentos para crear un mayor énfasis expresivo.</p>
                     <p>Tratan de transmitir una reacción emotiva del pintor ante el tema elegido. No buscan la representación naturalista, sino realzar el valor del color en sí mismo.</p>
                     <p>Las figuras resultan planas, lineales, encerradas en gruesas líneas de contorno, lo que les aproxima a la estética Art Nouveau.</p>
                 </blockquote>
-            </div>
-        </div>
-  </div>
-
-
+              </p>
+          </div>
+    
     </section>
 
 <footer class="container-fluid">
