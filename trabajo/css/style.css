@@ -139,3 +139,13 @@ section .card-body {
         transform: scale(1.0);
     }  
 }
+
+
+.contacto { background-color: rgba(175, 207, 57, 0.69); margin-bottom: 10%; border-radius: 15%;}
+.col.formulario {margin: auto; padding: 10%}
+.form-floating {margin-top: 5%;}
+.titulocontacto {justify-content: space-between;}
+.contactoimg  {padding: 15%; width: 110%;}
+.contacto h1 {text-align: center;
+    margin-bottom: 10%;
+    color: rgb(45, 139, 21);}
