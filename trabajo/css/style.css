@@ -141,11 +141,182 @@ section .card-body {
 }
 
 
-.contacto { background-color: rgba(175, 207, 57, 0.69); margin-bottom: 10%; border-radius: 15%;}
-.col.formulario {margin: auto; padding: 10%}
-.form-floating {margin-top: 5%;}
-.titulocontacto {justify-content: space-between;}
-.contactoimg  {padding: 15%; width: 110%;}
-.contacto h1 {text-align: center;
+.contacto {
+    margin-top: 8%;
+}
+
+.col.formulario {
+    margin: auto; 
+    padding: 5%;
+    background-color: rgba(175, 207, 57, 0.69); 
+    margin-bottom: 10%; 
+    border-radius: 10%;
+}
+.col.formulario:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite; 
+}
+
+.form-floating {
+    margin-top: 5%;
+    
+}
+
+.contactoimg  {
+    padding: 15%; 
+    width: 110%;
+}
+
+.contacto h1 {
+    text-align: center;
     margin-bottom: 10%;
-    color: rgb(45, 139, 21);}
+    color: rgb(45, 139, 21);
+}
+
+
+.henryanimaciones .col1:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite; 
+}
+.henryanimaciones .col1 {
+    color: orangered;
+    margin-right: 5%;
+    text-decoration: none;
+    animation-name: img1;
+    animation-duration: 2s;
+}
+@keyframes img1 {
+    0% { 
+        transform: translateX(-500px)
+    }
+    100% { 
+        transform: translateX(2px);
+    }  
+}
+
+
+.henryanimaciones .col2:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite; 
+}
+.henryanimaciones .col2 {
+    color: orangered;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    animation-name: img2;
+    animation-duration: 3s;
+}
+@keyframes img2 {
+    0% { 
+        transform: scale(0.0);
+    }
+    100% { 
+        transform: scale(1.0);
+    }  
+}
+
+
+.henryanimaciones .col3:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite; 
+}
+.henryanimaciones .col3 {
+    color: orangered;
+    text-decoration: none;
+    animation-name: img3;
+    animation-duration: 6s;
+}
+@keyframes img3 {
+    0% { 
+        transform: translateX(500px)
+    }
+    100% { 
+        transform: translateX(-2px);
+    }  
+}
+
+
+.henryanimaciones .col4:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite; 
+}
+.henryanimaciones .col4 {
+    color: orangered;
+    margin-right: 5%;
+    text-decoration: none;
+    animation-name: img4;
+    animation-duration: 3s;
+}
+@keyframes img4 {
+    0% { 
+        transform: translateY(-500px)
+    }
+    100% { 
+        transform: translateY(2px);
+    }  
+}
+
+
+.henryanimaciones .col5:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite; 
+}
+.henryanimaciones .col5 {
+    color: orangered;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    animation-name: img5;
+    animation-duration: 10s;
+}
+@keyframes img5 {
+    0% { 
+        transform: scale(0.0);
+    }
+    100% { 
+        transform: scale(1.0);
+    }  
+}
+
+
+.henryanimaciones .col6:hover {
+    transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;
+    transform: scale(1.1);
+    border-color: antiquewhite; 
+}
+.henryanimaciones .col6 {
+    color: orangered;
+    margin-right: 5%;
+    text-decoration: none;
+    animation-name: img6;
+    animation-duration: 10s;
+}
+@keyframes img6 {
+    0% { 
+        transform: translateX(-1500px)
+    }
+    100% { 
+        transform: translateX(2px);
+    }  
+}
