@@ -85,38 +85,54 @@
         </div>
     </header>
 
-<section>
-  <div class="container-fluid fondo">
+    <section>
+      <div class="container-fluid fondo">
     <div class="row">     
       <div class="container pt-3 pb-3 col-md-6 contacto" style="background-color:rgba(255, 230, 0, 0.411); margin-bottom: 5% ; margin-top: 3%; border-radius: 5%;">
-          <div class="container texto text-center">
-            <h5>¡Accede a tu cuenta!</h5>
-            <h4> Contenido exclusivo para nuestros usuarios</h4>
-          </div>
+          <div class="container texto text-center"><h5>Crea tu cuenta y comenzá a ser parte!</h5></div>
       <div class="container formulario col-md-12">
-            <form action="login.php" method="post" class="row" netlify="">
-                <div class="col-md-12">
-                  <label for="validationDefault01" class="form-label"></label>
-                  <input type="text" class="form-control campos" id="validationDefault01" name="usuario" placeholder="Usuario" required="">
-                </div>
-                <div class="col-md-12">
-                  <label for="validationDefault02" class="form-label"></label>
-                  <input type="password" class="form-control campos" id="validationDefault02" name="contraseña" placeholder="Contraseña" required="">
-                </div>
-                <div class="col-12 text-center">
-                  <button class="btn btn-primary enviar mt-3" href="login.php" style="text-decoration: none;" type="submit">Acceder</button>
-                </div>
-            </form>
-      </div>
-      <hr>
-      <p class="opcion" style="text-align:center;"> ¿No sos usuario? <a href="registro.html">Create un usuario
-      </a></p>
-      </div>
+          <form action="registro.php" method="post" class="row" netlify="">
+            <div class="col-md-12">
+              <label for="validationDefault01" class="form-label"></label>
+              <input type="text" class="form-control campos" id="validationDefault01" name="nombre" placeholder="Nombre" required="">
+            </div>
+            <div class="col-md-12">
+              <label for="validationDefault01" class="form-label"></label>
+              <input type="text" class="form-control campos" id="validationDefault01" name="apellido" placeholder="Apellido" required="">
+            </div>
+            <div class="col-md-12">
+              <label for="validationDefaultUsername" class="form-label"></label>
+                <input type="email" class="form-control campos" id="validationDefaultUsername" name="email" placeholder="Email" aria-describedby="inputGroupPrepend2" required="">
+            </div> 
+        
+              <div class="col-md-12">
+                <label for="validationDefault01" class="form-label"></label>
+                <input type="text" class="form-control campos" id="validationDefault01" name="usuario" placeholder="Usuario" required="">
+              </div>
+              <div class="col-md-12">
+                <label for="validationDefault02" class="form-label"></label>
+                <input type="password" class="form-control campos" id="validationDefault02" name="contraseña" placeholder="Contraseña" required="">
+              </div>
+          
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" name="terminos" required="">
+                <label class="form-check-label" for="invalidCheck2">
+                  Acepto términos y condiciones.
+                </label>
+              </div>
+            </div>
+              <div class="col-12 text-center">
+                <button class="btn btn-primary enviar mt-3" type="submit">Crear cuenta</button>
+              </div>
+            </form></div>
+          <div>
+    <hr>
+    <p class="opcion" style="text-align:center;">¿Sos usuario? <a href="login.html">Accede a tu cuenta</a></p>
+    
     </div>
-  </div>
-</section>
-  
-
+    </div></div></div></section>
+    
     <footer class="container-fluid">
       <div class="footer container">
         <div class="row">

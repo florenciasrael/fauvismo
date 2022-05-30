@@ -33,7 +33,7 @@
 	$consulta = mysqli_query($conexion, "INSERT INTO usuarios (nombre, apellido, email, usuario, password, newsletter) VALUES('$nombre','$apellido','$email', '$usuario', '$password', '$news')");
 
 
-	header("Location:form_login.php");
+	header("Location:login.html");
 
 ?>	
     
